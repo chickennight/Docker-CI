@@ -33,7 +33,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wpuser
-      WORDPRESS_DB_PASSWORD: rootroot
+      WORDPRESS_DB_PASSWORD: wpuser
       WORDPRESS_DB_NAME: wpdb
 networks:
   frontend-net: {}
